@@ -1,0 +1,57 @@
+site_name: Omnis
+theme:
+  name: material
+  logo: ../images/logo.png
+  favicon: images/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+    - scheme: slate 
+      primary: light blue
+  plugins:
+  - social
+  - typeset
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/api/oauth2/authorize?client_id=1079301591548563527&permissions=277062470720&scope=bot
+    - icon: fontawesome/brands/github
+      link: https://github.com/dylwedma11748
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/7thousandnumbers
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/7thousandnumber
+copyright: Copyright &copy; 2023 <a href="https://github.com/dylwedma11748" target="_blank" rel="noopener">Dylan Wedman</a>
+site_author: Dylan Wedman
+site_url: https://omnis-bot.com/
+
+extra_css:
+    - style.css
+
+nav:
+    - Home: index.md
+    - Commands: commands.md
+    - Pricing: pricing.md
+    - User Guide:
+        - Audio player: user-guide/audio-player.md
+        - Conversations with Omnis: user-guide/conversations-with-omnis.md
+        - Settings: user-guide/settings.md
+    - Terms: terms.md
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
