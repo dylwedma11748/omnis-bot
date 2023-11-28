@@ -2,7 +2,7 @@
 
 <h2 class="feature-header"><b><i>Introducing Omnis, a Discord bot with a more lively presence.</i></b></h2>
 
-![png](../images/logo.png)
+![png](../images/logo/logo.png)
 
 <br>
 
