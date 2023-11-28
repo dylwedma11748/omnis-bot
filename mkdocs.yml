@@ -15,7 +15,6 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
     - scheme: slate 
       primary: light blue
   plugins:
@@ -34,7 +33,6 @@ extra:
       link: https://twitter.com/7thousandnumber
 copyright: Copyright &copy; 2023 <a href="https://github.com/dylwedma11748" target="_blank" rel="noopener">Dylan Wedman</a>
 site_author: Dylan Wedman
-site_url: https://omnis-bot.com/
 
 extra_css:
     - style.css
