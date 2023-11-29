@@ -1,81 +1,71 @@
-/* Style the pricing container */
 .pricing-container {
     display: flex;
 }
 
-/* Style each pricing box */
 .pricing-box {
     flex: 1;
-    padding: 10px; /* Reduce padding for a smaller box */
-    border: 1px solid #555; /* Darker border color for dark theme */
+    padding: 10px;
+    border: 1px solid #555;
     margin: 10px;
     border-radius: 5px;
-    background-color: #333; /* Dark background color for dark theme */
-    color: #fff; /* Text color for dark theme */
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); /* Adjust shadow color */
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
 }
 
-/* Style the pricing header */
 .pricing-header {
     font-size: 24px;
-    font-weight: bold; /* Bold header text */
-    text-align: left; /* Left-align text */
+    font-weight: bold;
+    text-align: left;
 }
 
-/* Style the pricing description */
 .pricing-description {
-    font-size: 18px; /* Slightly smaller description text */
-    margin: 10px 0; /* Add margin for spacing */
-    text-align: left; /* Left-align text */
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: left;
 }
 
-/* Style the pricing price section */
 .pricing-price {
-    font-size: 24px; /* Larger price text */
-    text-align: left; /* Left-align text */
+    font-size: 24px;
+    text-align: left;
 }
 
-/* Style the bold part of the price */
 .pricing-price-bold {
-    font-weight: bold; /* Bold price tag */
+    font-weight: bold;
 }
 
-/* Style the pricing features list */
 .pricing-features {
     list-style: none;
     padding: 0;
-    margin-top: 10px; /* Add margin above the features list */
-    text-align: left; /* Left-align text */
+    margin-top: 10px;
+    text-align: left;
 }
 
-/* Style the pricing features list items */
 .pricing-features li {
     padding: 5px 0;
     font-size: 16px;
 }
 
-/* Style the pricing button */
 .pricing-button {
-    display: block; /* Change to block level element */
-    width: 100%; /* Set the width to 100% to extend across the box */
-    margin: 20px 0; /* Adjust vertical margin */
-    padding: 10px 0; /* Adjust vertical padding */
-    background-color: #000; /* Button background color (black) */
-    color: #fff !important; /* Button text color (white with !important) */
-    text-align: center; /* Center-align the text */
-    text-decoration: none; /* Remove underlines from links */
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
-/* Change button background color on hover */
 .pricing-button:hover {
-    background-color: #0056b3; /* Change to your desired hover color */
+    background-color: #0056b3;
 }
 
 .feature-header {
     font-size: 24px;
-    font-weight: bold; /* Bold header text */
+    font-weight: bold;
     text-align: center;
 }
 
@@ -85,7 +75,6 @@
     margin-bottom: 5px;
 }
 
-/* Style the feature list container */
 .feature-list {
     display: flex;
     flex-wrap: wrap;
@@ -93,30 +82,26 @@
     margin-top: 20px;
 }
 
-/* Style each feature column */
 .feature-column {
-    flex-basis: calc(33.33% - 10px); /* Three columns with spacing */
+    flex-basis: calc(33.33% - 10px);
     padding: 10px;
     text-align: center;
 }
 
-/* Style feature descriptions */
 .feature-description {
     font-size: 16px;
-	text-align: left;
+    text-align: left;
     margin-bottom: 5px;
 }
 
-/* Style feature check marks */
 .feature-check {
     font-size: 16px;
-    color: green; /* You can adjust the color as needed */
+    color: green;
 }
 
-/* Style the summary elements as tabs */
 details > summary {
-    background-color: #007BFF; /* Change to your desired tab background color */
-    color: white; /* Tab text color */
+    background-color: #007BFF;
+    color: white;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
@@ -124,22 +109,18 @@ details > summary {
     transition: background-color 0.3s ease;
 }
 
-/* Change tab background color on hover */
 details > summary:hover {
-    background-color: #0056b3; /* Change to your desired hover color */
+    background-color: #0056b3;
 }
 
-/* Style the content within the details element */
 details > * {
     margin: 10px;
 }
 
-/* Style the content of open details elements */
 details[open] > summary {
-    background-color: #0056b3; /* Open tab color */
+    background-color: #0056b3;
 }
 
-/* Add a border to the open tab */
 details[open] > summary {
     border-bottom: none;
 }
