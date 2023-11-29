@@ -171,5 +171,5 @@
 
 <details>
     <summary>I've linked my accounts/increased my pledge, but still haven't recieved my benefits. What's going on?</summary>
-    <p class="pricing-description">Omnis refreshes it's Patreon subscriptions every 60 seconds. If you still aren't recieving your benefits after that, then Patreon's servers may be under maintenance. Give in another try in a few minutes, if is still doesn't work, reach out to me!</p>
+    <p class="pricing-description">Omnis refreshes it's Patreon subscriptions every 60 seconds. If you still aren't recieving your benefits after that, then Patreon's servers may be under maintenance. Give it another try in a few minutes, if it still doesn't work, reach out to me!</p>
 </details>
