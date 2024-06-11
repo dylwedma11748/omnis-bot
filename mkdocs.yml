@@ -1,6 +1,7 @@
 site_name: Omnis
 theme:
   name: material
+  custom_dir: overrides
   logo: images/logo/logo.png
   favicon: images/favicon.ico
   features:
@@ -20,6 +21,7 @@ theme:
   plugins:
   - social
   - typeset
+  - mkdocs-video
 
 extra:
   social:
@@ -31,13 +33,16 @@ extra:
       link: https://www.facebook.com/7thousandnumbers
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/7thousandnumber
-copyright: Copyright &copy; 2023 <a href="https://github.com/dylwedma11748" target="_blank" rel="noopener">Dylan Wedman</a>
+copyright: Copyright &copy; 2023-2024 <a href="https://github.com/dylwedma11748" target="_blank" rel="noopener">Dylan Wedman</a>
 site_author: Dylan Wedman
 site_url: https://omnis-bot.com
 site_description: A Discord bot with a more lively presence
 
 extra_css:
     - style.css
+    
+extra_javascript:
+    - scripts/video-check.js
 
 nav:
     - Home: index.md
