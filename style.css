@@ -1,35 +1,35 @@
 .pricing-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content
+    justify-content: space-around;
 }
 
 .pricing-box {
-    flex: 1;
-    padding: 10px;
+    flex: 1 1 300px;
+    padding: 20px;
     border: 1px solid #555;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #333;
     color: #fff;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .pricing-header {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
 .pricing-description {
     font-size: 18px;
     margin: 10px 0;
-    text-align: left;
+    text-align: center;
 }
 
 .pricing-price {
     font-size: 24px;
-    text-align: left;
+    text-align: center;
 }
 
 .pricing-price-bold {
@@ -40,7 +40,7 @@
     list-style: none;
     padding: 0;
     margin-top: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .pricing-features li {
@@ -66,9 +66,10 @@
 }
 
 .feature-header {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
+    margin-top: 20px;
 }
 
 .feature-label {
@@ -80,12 +81,12 @@
 .feature-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
 .feature-column {
-    flex-basis: calc(33.33% - 10px);
+    flex: 1 1 30%;
     padding: 10px;
     text-align: center;
 }
@@ -121,8 +122,5 @@ details > * {
 
 details[open] > summary {
     background-color: #0056b3;
-}
-
-details[open] > summary {
     border-bottom: none;
 }
