@@ -1,4 +1,4 @@
-# Get started with Omnis!
+#
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 
@@ -13,6 +13,7 @@
         </div>
         <ul class="pricing-features">
             <li>Summon Omnis to a voice channel</li>
+			<li>Wake Omnis using /wakeup</li>
 			<li>Play audio tracks</li>
             <li>Stream local media files</li>
             <li>Create embeds</li>
@@ -28,10 +29,11 @@
             <span class="pricing-price-bold">$3</span><span>/Month</span>
         </div>
         <ul class="pricing-features">
-			<li>OpenAI prompts</li>
+			<li>OpenAI chat prompts</li>
+			<li>Wake Omnis by saying it's name.</li>
             <li>Custom summon greeting</li>
-			<li>Text-to-Speech with over 175 voices to choose from</li>
-			<li>Volume commands</li>
+			<li>Text-to-Speech with over 700 voices to choose from</li>
+			<li>Image generation with DALL·E</li>
         </ul>
         <a class="pricing-button" href="https://www.patreon.com/7thousandnumbers/membership">
 			<i class="fa-brands fa-patreon fa-bounce"></i> Subscribe on Patreon
@@ -75,6 +77,16 @@
     </div>
 	
 	<div class="feature-column">
+        <p class="feature-description">Audio player voice commands</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+	
+	<div class="feature-column">
         <p class="feature-description">Stream local media files</p>
     </div>
     <div class="feature-column">
@@ -96,6 +108,16 @@
 	
 	<div class="feature-column">
         <p class="feature-description">Make Omnis speak in a voice channel</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">❌</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+	
+	<div class="feature-column">
+        <p class="feature-description">Wake up Omnis by saying it's name</p>
     </div>
     <div class="feature-column">
         <p class="feature-check">❌</p>
@@ -143,6 +165,16 @@
     <div class="feature-column">
         <p class="feature-check">✔️</p>
     </div>
+	
+	<div class="feature-column">
+        <p class="feature-description">Image generation with DALL·E</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">❌</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
 </div>
 
 <br>
@@ -151,7 +183,7 @@
 
 <details>
     <summary>How does the subscription work?</summary>
-	<p class="pricing-description">When you subscribe, you are buying an individual membership for yourself. You'll receive an allowance every month based on the amount that you pledge. If you use more than your allowance covers, you'll temporarily lose access to prompt generation until your usage resets when your membership renews or until you increase your pledge.</p>
+	<p class="pricing-description">When you subscribe, you are buying an individual membership for yourself. You'll receive an allowance every month based on the amount that you pledge. If you use more than your allowance covers, you'll temporarily lose access to prompt and image generation until your usage resets when your membership renews or until you increase your pledge.</p>
 </details>
 
 <details>
@@ -161,7 +193,7 @@
 
 <details>
     <summary>Can I share my membership with other users?</summary>
-	<p class="pricing-description">Not at the moment, but I do have plans to add a membership tier that lets you do just that.</p>
+	<p class="pricing-description">Not at the moment, but maybe it will be allowed in the future.</p>
 </details>
 
 <details>
