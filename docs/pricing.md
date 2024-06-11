@@ -7,7 +7,7 @@
 <div class="pricing-container">
     <div class="pricing-box">
         <h2 class="pricing-header"><b>Free Users</b></h2>
-        <p class="pricing-description">Free for everyone, get of taste of what Omnis can do!</p>
+        <p class="pricing-description">Get of taste of what Omnis can do!</p>
         <div class="pricing-price">
             <span class="pricing-price-bold">$0</span><span>/Month</span>
         </div>
