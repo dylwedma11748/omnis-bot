@@ -9,13 +9,19 @@
     Omnis needs to be in a voice channel in order to change the voice.
 
 !!! tip "Voice types"
-    Omnis supports four of Google's Text-to-Speech voice types:
+    Omnis supports all of Google's Text-to-Speech voice types:
 	
 	- Neural2 - Based on the same technology used to create a Custom Voice.
 	- Standard - The synthetic speech technology used to create the machine model of the voice.
 	- WaveNet - The technology used to produce speech for Google Assistant, Google Search, and Google Translate.
 	- Polyglot - These voices can speak multiple languages.
+	- Studio - Narration voices designed for news and broadcast content.
+	- News - Another small branch of Studio voices.
+	- Journey - Spontaneous conversational voices based on AudioLM.
+	- Casual - Designed for conversational, imperfect dialogue for comfort.
 
+!!! tip ""
+    In addition to supporting all voice types, Omnis supports all of Google's available Text-to-Speech voices. That's over 700 voices to choose from!
 
 !!! tip ""
     Use the /settings command and select "Change TTS voice", then select a voice type, a language, and a voice.
