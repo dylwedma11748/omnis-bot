@@ -46,6 +46,7 @@
 .pricing-features li {
     padding: 5px 0;
     font-size: 16px;
+    list-style-type: none;
 }
 
 .pricing-button {
