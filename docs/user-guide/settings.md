@@ -41,6 +41,6 @@
 	<i> This requires a premium membership. </i>
 	
 !!! tip ""
-    Use the /settings command and select "Change summon greeting". The next message you send in that channel will be used as your summon greeting.
+    Use the /settings command and select "Change summon greeting". The next message you send in a direct message will be used as your summon greeting.
 
 ![png](../images/settings/settings-menu.png)
