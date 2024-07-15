@@ -43,6 +43,7 @@ extra_css:
     
 extra_javascript:
     - scripts/video-check.js
+    - scripts/remove-navigation-div.js
 
 nav:
     - Home: index.md
