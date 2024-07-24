@@ -589,92 +589,102 @@ You can use this to keep your interactions hidden from other users.</p>
 <tr>
 <th>Command</th>
 <th>Description</th>
+<th></th>
+<th>Command</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>/help</td>
-<td>Shows a detailed list of commands.</td>
-</tr>
-<tr>
-<td>/summon</td>
-<td>Summon Omnis to your voice channel.</td>
-</tr>
-<tr>
-<td>/exile</td>
-<td>Exile Omnis from your voice channel.</td>
-</tr>
-<tr>
-<td>/wakeup</td>
-<td>Wake up Omnis in your voice channel.</td>
-</tr>
-<tr>
-<td>/say</td>
-<td>Make Omnis say something. <br> phrase (optional) - The phrase to say. If not provided here, a modal will open. <br> <em>Requires a premium membership.</em></td>
-</tr>
-<tr>
-<td>/quiet</td>
-<td>Make Omnis stop speaking. <br> <em>Requires a premium membership.</em></td>
-</tr>
-<tr>
-<td>/talk</td>
-<td>Talk to Omnis. <br> incognito (required) - Hide from other users. <br> tts (required) - Use TTS for Omnis's response. <br>  prompt (optional) - What to say to Omnis. If not provided here, a modal will open. <br> <em>Requires a premium membership.</em></td>
-</tr>
-<tr>
-<td>/clear</td>
-<td>Clear your conversation with Omnis. <br> <em>Requires a premium membership.</em></td>
-</tr>
-<tr>
-<td>/embed</td>
-<td>Create an embed. <br>  title (required) - The title of the embed. Use "/nl" to add a new line. <br> description (required) - The description of the embed. Use "/nl" to add a new line. <br> footer (required) - Include the Omnis logo as a footer. <br></td>
-</tr>
-<tr>
-<td>/imagine</td>
-<td>Create an image from a prompt. <br> prompt (required) - The prompt to create an image from. <br> hd (required) - Generate an high definition image (more expensive). <br> <em>Requires a premium membership.</em></td>
-</tr>
-<tr>
-<td>/upload</td>
-<td>Upload a local media file to stream. <br> file (required) - The media file. <br></td>
-</tr>
-<tr>
-<td>/play</td>
-<td>Play specifed asset. <br> asset (optional) - The asset to play. If not provided here, a modal will open. <br>  Paste a supported link or enter a search term.</td>
-</tr>
-<tr>
+<td>/patreon</td>
+<td>Check Patreon status.</td>
+<td></td>
 <td>/pause</td>
 <td>Pause the audio player.</td>
 </tr>
 <tr>
-<td>/search</td>
-<td>Search YouTube for a track. <br> query (optional) - The search query. If not provided here, a modal will open. <br> The results will be sent to your direct messages.</td>
-</tr>
-<tr>
-<td>/settings</td>
-<td>Modify settings. <br> <em>Requires a premium membership.</em></td>
-</tr>
-<tr>
-<td>/skip</td>
-<td>Skip to the next track in the queue.</td>
-</tr>
-<tr>
+<td>/invite</td>
+<td>Invite Omnis to another server.</td>
+<td></td>
 <td>/resume</td>
 <td>Resume the audio player.</td>
 </tr>
 <tr>
-<td>/volume</td>
-<td>Show or set the audio player's volume. <br> volume (optional) - Volume level to apply. If not provided here, it will show the current volume. <br> <em>Requires a premium membership.</em></td>
-</tr>
-<tr>
+<td>/help</td>
+<td>Shows a detailed list of commands.</td>
+<td></td>
 <td>/queue</td>
 <td>Show the audio player queue.</td>
 </tr>
 <tr>
-<td>/patreon</td>
-<td>Check Patreon status.</td>
+<td>/summon</td>
+<td>Summon Omnis to your voice channel.</td>
+<td></td>
+<td>/skip</td>
+<td>Skip to the next track in the queue.</td>
 </tr>
 <tr>
-<td>/invite</td>
-<td>Invite Omnis to another server.</td>
+<td>/exile</td>
+<td>Exile Omnis from your voice channel.</td>
+<td></td>
+<td>/shuffle</td>
+<td>Shuffle the tracks in the queue.</td>
+</tr>
+<tr>
+<td>/wakeup</td>
+<td>Wake up Omnis in your voice channel.</td>
+<td></td>
+<td>/stop</td>
+<td>Stop the audio player and clear the queue.</td>
+</tr>
+<tr>
+<td>/settings</td>
+<td>Modify settings. Requires a premium membership.</td>
+<td></td>
+<td>/previous</td>
+<td>Go back to the previous track in the queue.</td>
+</tr>
+<tr>
+<td>/quiet</td>
+<td>Make Omnis stop speaking. <br> Requires a premium membership.</td>
+<td></td>
+<td>/upload</td>
+<td>Upload a local media file to stream. <br> file (required) - The media file. <br></td>
+</tr>
+<tr>
+<td>/clear</td>
+<td>Clear your conversation with Omnis. <br> Requires a premium membership.</td>
+<td></td>
+<td>/autoplay</td>
+<td>Enable/Disable autoplay for the audio player. <br> autoplay (required) - Use autoplay</td>
+</tr>
+<tr>
+<td>/say</td>
+<td>Make Omnis say something. <br> phrase (optional) - The phrase to say. If not provided here, a modal will open. Requires a premium membership.</td>
+<td></td>
+<td>/seek</td>
+<td>Seek to a position in the currently playing track. <br> position (required) The position to seek to, formatted as MM:SS or HH:MM:SS.</td>
+</tr>
+<tr>
+<td>/imagine</td>
+<td>Create an image from a prompt. <br> prompt (required) - The prompt to create an image from. <br> hd (required) - Generate an high definition image (more expensive). <br> Requires a premium membership.</td>
+<td></td>
+<td>/play</td>
+<td>Play specifed asset. <br> asset (optional) - The asset to play. If not provided here, a modal will open. <br> Paste a supported link or enter a search term.</td>
+</tr>
+<tr>
+<td>/talk</td>
+<td>Talk to Omnis. Requires a premium membership. <br> incognito (required) - Hide from other users. <br> tts (required) - Use TTS for Omnis's response. <br> prompt (optional) - What to say to Omnis.</td>
+<td></td>
+<td>/search</td>
+<td>Search YouTube for a track. <br> query (optional) - The search query. If not provided here, a modal will open. <br> The results will be sent to your direct messages.</td>
+</tr>
+<tr>
+<td>/embed</td>
+<td>Create an embed. <br> title (required) - The title of the embed. Use "/nl" to add a new line. <br> description (required) - The embedded description. Use "/nl" to add a new line. <br> footer (required) - Include the Omnis logo as a footer. <br></td>
+<td></td>
+<td>/volume</td>
+<td>Show or set the audio player's volume. <br> volume (optional) - Volume level to apply. If not provided here, it will show the current volume. <br> Requires a premium membership.</td>
 </tr>
 </tbody>
 </table>
@@ -684,16 +694,22 @@ You can use this to keep your interactions hidden from other users.</p>
 <p class="admonition-title">Waking up Omnis</p>
 <p>Omnis needs to be woken up to be given a voice command.
 To do so, just use the /wakeup command.
-Omnis will respond by saying "Yes?" and start listening for your input.
+Omnis will respond by saying it's onWake phrase and start listening for your input.
 Premium users can wake Omnis up in a voice channel by saying it's name.</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Accuracy</p>
-<p>Voice commands may not work perfectly. Things like background noise and distortion may affect it's accuracy. A good quality microphone with noise cancellation is recommended. Using your phone's microphone on the Discord app may not work very well.</p>
+<p>Voice commands may not work perfectly.
+Things like background noise and distortion may affect it's accuracy.
+A good quality microphone with noise cancellation is recommended.
+Using your phone's microphone on the Discord app may not work very well.</p>
 </div>
 <table>
 <thead>
 <tr>
+<th>Prompt</th>
+<th>Description</th>
+<th></th>
 <th>Prompt</th>
 <th>Description</th>
 </tr>
@@ -702,26 +718,23 @@ Premium users can wake Omnis up in a voice channel by saying it's name.</p>
 <tr>
 <td>"play"</td>
 <td>This command has two ways of using it. <br> <br> 1. "play %s" - Play specifed song. <br> 2. "play %s by %s" - Play specifed song by specifed author. <br> <br> Omnis will search YouTube and play the first result.</td>
+<td></td>
+<td>"volume"</td>
+<td>This command has two ways of using it: <br> <br> 1. "volume %i" - Set the volume of the audio player to the specifed number. <br> 2. "volume up or down" - Set the volume of the audio player up/down by 10. <br> <br> <em>Requires a premium membership.</em></td>
 </tr>
 <tr>
 <td>"pause"</td>
 <td>Pause the audio player.</td>
-</tr>
-<tr>
+<td></td>
 <td>"unpause" or "resume"</td>
 <td>Resume the audio player</td>
 </tr>
 <tr>
 <td>"skip"</td>
 <td>Skip to the next song in the queue.</td>
-</tr>
-<tr>
+<td></td>
 <td>"stop"</td>
 <td>Stop the audio player and clear the queue.</td>
-</tr>
-<tr>
-<td>"volume"</td>
-<td>This command has three ways of using it: <br> <br> 1. "volume %i" - Set the volume of the audio player to the specifed number. <br> 2. "volume up" Increase the volume of the audio player by 10. <br> 3. "volume down" - Decrease the volume of the audio player by 10. <br> <br> <em>Requires a premium membership.</em></td>
 </tr>
 </tbody>
 </table>
