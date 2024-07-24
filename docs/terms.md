@@ -49,7 +49,7 @@ Once a conversation is cleared from memory, it can no longer be accessed by Omni
 Omnis does not log any message content or use it for training AI models.
 Please refer to <a href="https://openai.com/policies/privacy-policy/">OpenAI's privacy policy</a> to learn how they handle message content sent to them through Omnis.
 
-Omnis utilizes Google's Text-to-Speech (TTS) technology to provide its TTS functionalities and Google's Speech-to-Text (STT) technology for its voice command features.
+Omnis utilizes Google's Text-to-Speech (TTS) technology to provide its TTS functionalities and Google's Speech-to-Text (STT) technology for it's voice command features.
 Importantly, by default, Google does not log customer audio data or transcripts as seen in their [Data logging doc](https://cloud.google.com/speech-to-text/docs/data-logging), and Omnis also adheres to this practice, ensuring that your audio interactions remain private and secure.
 Omnis is not set to opt-in to Google's data logging program, and your voice data is not stored or logged by either Google or Omnis, allowing you to use these features with confidence in the protection of your privacy.
 
