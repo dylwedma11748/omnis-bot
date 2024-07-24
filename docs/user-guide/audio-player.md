@@ -20,10 +20,13 @@
 	- Streaming media files from a supported link.
 	- Streaming media files already uploaded to Discord.
 	- Searching YouTube for a track.
-	- Adding multiple tracks into a queue
-	- Skipping to the next song in the queue
-	- Pause/resume controls
-	- Volume controls (Premium)
+	- Adding multiple tracks into a queue.
+	- Skipping to the next song in the queue.
+	- Going back to the previous track in the queue.
+	- Autoplay random tracks when at the end of the queue.
+	- Shuffle tracks in the queue
+	- Pause/resume controls.
+	- Volume controls. (Premium)
 	
 ## **Controls**
 
