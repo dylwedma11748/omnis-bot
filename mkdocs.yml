@@ -5,15 +5,19 @@ theme:
   logo: images/logo/logo.png
   favicon: images/favicon.ico
   features:
-    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.sections
-    - toc.integrate
+    - navigation.tabs
+    - navigation.tracking
     - navigation.top
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - content.tooltips
   language: en
   palette:
     - scheme: slate 
@@ -43,7 +47,6 @@ extra_css:
     
 extra_javascript:
     - scripts/video-check.js
-    - scripts/remove-navigation-div.js
 
 nav:
     - Home: index.md
@@ -56,5 +59,11 @@ nav:
     - Terms: terms.md
 
 markdown_extensions:
+  - abbr
   - attr_list
   - admonition
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
