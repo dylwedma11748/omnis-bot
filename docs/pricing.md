@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 #
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -77,6 +83,26 @@
     </div>
 	
 	<div class="feature-column">
+        <p class="feature-description">Enable Autoplay for continuous playback</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+	
+	<div class="feature-column">
+        <p class="feature-description">Set repeat mode</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+	
+	<div class="feature-column">
         <p class="feature-description">Audio player voice commands</p>
     </div>
     <div class="feature-column">
@@ -98,6 +124,16 @@
 	
 	<div class="feature-column">
         <p class="feature-description">Create embeds</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+	
+	<div class="feature-column">
+        <p class="feature-description">Get lyrics of playing track</p>
     </div>
     <div class="feature-column">
         <p class="feature-check">✔️</p>
@@ -167,7 +203,37 @@
     </div>
 	
 	<div class="feature-column">
+        <p class="feature-description">Change onWake phrase</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">❌</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+	
+	<div class="feature-column">
+        <p class="feature-description">Switch to Spotify search for music</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">❌</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+	
+	<div class="feature-column">
         <p class="feature-description">Image generation with DALL·E</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">❌</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+	
+	<div class="feature-column">
+        <p class="feature-description">GTA Radio Mode</p>
     </div>
     <div class="feature-column">
         <p class="feature-check">❌</p>
@@ -181,27 +247,17 @@
 
 <h2 class="feature-header"><b>Frequently Asked Questions</b></h2>
 
-<details>
-    <summary>How does the subscription work?</summary>
-	<p class="pricing-description">When you subscribe, you are buying an individual membership for yourself. You'll receive an allowance every month based on the amount that you pledge. If you use more than your allowance covers, you'll temporarily lose access to prompt and image generation until your usage resets when your membership renews or until you increase your pledge.</p>
-</details>
+??? question "How does the subscription work?"
+    <p class="pricing-description-faq">When you subscribe, you are buying an individual membership for yourself. You'll receive an allowance every month based on the amount that you pledge. If you use more than your allowance covers, you'll temporarily lose access to prompt and image generation until your usage resets when your membership renews or until you increase your pledge.</p>
 
-<details>
-    <summary>How many servers can I use my membership in?</summary>
-	<p class="pricing-description">You can use your membership in any server with Omnis. You do not need multiple subscriptions for additional servers.</p>
-</details>
+??? question "How many servers can I use my membership in?"
+    <p class="pricing-description-faq">You can use your membership in any server with Omnis. You do not need multiple subscriptions for additional servers.</p>
+	
+??? question "Can I share my membership with other users?"
+    <p class="pricing-description-faq">Not at the moment, but maybe it will be allowed in the future.</p>
+	
+??? question "How do I receive my benefits?"
+    <p class="pricing-description-faq">All you need to do <a href="https://www.patreon.com/settings/apps/discord">link your Discord account and Patreon account</a>.</p>
 
-<details>
-    <summary>Can I share my membership with other users?</summary>
-	<p class="pricing-description">Not at the moment, but maybe it will be allowed in the future.</p>
-</details>
-
-<details>
-    <summary>How do I receive my benefits?</summary>
-    <p class="pricing-description">All you need to do <a href="https://www.patreon.com/settings/apps/discord">link your Discord account and Patreon account</a>.</p>
-</details>
-
-<details>
-    <summary>I've linked my accounts/increased my pledge, but still haven't recieved my benefits. What's going on?</summary>
-    <p class="pricing-description">Omnis refreshes it's Patreon subscriptions every 60 seconds. If you still aren't recieving your benefits after that, then Patreon's servers may be under maintenance. Give it another try in a few minutes, if it still doesn't work, reach out to me!</p>
-</details>
+??? question "I've linked my accounts/increased my pledge, but still haven't recieved my benefits. What's going on?"
+    <p class="pricing-description-faq">Omnis refreshes it's Patreon subscriptions every 60 seconds. If you still aren't recieving your benefits after that, then Patreon's servers may be under maintenance. Give it another try in a few minutes, if it still doesn't work, reach out to me!</p>
