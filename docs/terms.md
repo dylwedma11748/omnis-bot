@@ -156,7 +156,7 @@ While the Developer may not always provide advance notice of changes, efforts wi
 ### **User Responsibility**
 It is the user's responsibility to stay informed about any changes to Omnis.
 Continued use of Omnis following the implementation of changes constitutes your acceptance of those changes.
-If you do not agree with the modifications, you must discontinue using Omnis.
+If you do not agree with the modifications, you may discontinue using Omnis.
 
 ### **Service Updates**
 To enhance performance, security, and user experience, regular updates and improvements may be applied to Omnis.
