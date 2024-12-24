@@ -3,13 +3,16 @@
 ## **Services and features**
 
 !!! tip "Supported services"
-	Omnis's audio player can load tracks from the following services:
+	Omnis's audio player can load tracks from the following sources:
 	
 	- YouTube
+	- Twitch
+	- Spotify
+	- Apple Music
+	- Deezer
 	- SoundCloud
 	- Bandcamp
 	- Vimeo
-	- Twitch
 	- Local files
 	- HTTP URLs
 
@@ -20,13 +23,15 @@
 	- Streaming media files from a supported link.
 	- Streaming media files already uploaded to Discord.
 	- Searching YouTube for a track.
+	- Searching Spotify for a track. (Premium)
 	- Adding multiple tracks into a queue.
 	- Skipping to the next song in the queue.
 	- Going back to the previous track in the queue.
 	- Autoplay random tracks when at the end of the queue.
 	- Shuffle tracks in the queue
-	- Pause/resume controls.
-	- Volume controls. (Premium)
+	- Show the lyrics of the currently playing track.
+	- Setting repeat modes.
+	- Audio player controller with buttons for interactions.
 	
 ## **Controls**
 
@@ -38,7 +43,7 @@
 	- Using the /search command and selecting a track.
 	- Using the /upload command to upload and stream a media file.
 	
-!!! tip "Supported formats"
+!!! tip "Supported file formats"
 	These are the currently supported formats:
 	
 	- MP3
