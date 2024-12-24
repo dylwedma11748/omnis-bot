@@ -582,13 +582,16 @@
 <h2 id="services-and-features"><strong>Services and features</strong></h2>
 <div class="admonition tip">
 <p class="admonition-title">Supported services</p>
-<p>Omnis's audio player can load tracks from the following services:</p>
+<p>Omnis's audio player can load tracks from the following sources:</p>
 <ul>
 <li>YouTube</li>
+<li>Twitch</li>
+<li>Spotify</li>
+<li>Apple Music</li>
+<li>Deezer</li>
 <li>SoundCloud</li>
 <li>Bandcamp</li>
 <li>Vimeo</li>
-<li>Twitch</li>
 <li>Local files</li>
 <li>HTTP URLs</li>
 </ul>
@@ -601,13 +604,15 @@
 <li>Streaming media files from a supported link.</li>
 <li>Streaming media files already uploaded to Discord.</li>
 <li>Searching YouTube for a track.</li>
+<li>Searching Spotify for a track. (Premium)</li>
 <li>Adding multiple tracks into a queue.</li>
 <li>Skipping to the next song in the queue.</li>
 <li>Going back to the previous track in the queue.</li>
 <li>Autoplay random tracks when at the end of the queue.</li>
 <li>Shuffle tracks in the queue</li>
-<li>Pause/resume controls.</li>
-<li>Volume controls. (Premium)</li>
+<li>Show the lyrics of the currently playing track.</li>
+<li>Setting repeat modes.</li>
+<li>Audio player controller with buttons for interactions.</li>
 </ul>
 </div>
 <h2 id="controls"><strong>Controls</strong></h2>
@@ -622,7 +627,7 @@
 </ul>
 </div>
 <div class="admonition tip">
-<p class="admonition-title">Supported formats</p>
+<p class="admonition-title">Supported file formats</p>
 <p>These are the currently supported formats:</p>
 <ul>
 <li>MP3</li>
@@ -716,15 +721,15 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.tabs", "navigation.tracking", "navigation.top", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.tooltips"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
       
         <script src="../../scripts/video-check.js"></script>
-      
-        <script src="../../scripts/remove-navigation-div.js"></script>
       
     
   </body>
