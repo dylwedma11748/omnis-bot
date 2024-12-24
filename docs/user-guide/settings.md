@@ -1,3 +1,5 @@
+# **Settings**
+
 !!! tip ""
     Any settings you change will be saved for you and will carry across servers.
 
