@@ -389,7 +389,7 @@ hide:
     <summary>unpause or resume - Resume the audio player.</summary>
 	<p><b>Description:</b>
 	<br>
-    <i>Pause the audio player.</i></p>
+    <i>Resume the audio player.</i></p>
 	<p><b>Usage:</b>
 	<br>
 	<i>unpause</i>
