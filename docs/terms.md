@@ -53,7 +53,7 @@ Omnis utilizes Google's Text-to-Speech (TTS) technology to provide its TTS funct
 Importantly, by default, Google does not log customer audio data or transcripts as seen in their [Data logging doc](https://cloud.google.com/speech-to-text/docs/data-logging), and Omnis also adheres to this practice, ensuring that your audio interactions remain private and secure.
 Omnis is not set to opt-in to Google's data logging program, and your voice data is not stored or logged by either Google or Omnis, allowing you to use these features with confidence in the protection of your privacy.
 
-For users with a premium membership, user settings are stored and linked to a Discord User ID (also known as a Snowflake), which is an 18-digit number unique to each user.
+For users with a premium membership, user settings are stored and linked to a Discord User ID (also known as a Snowflake), which is a string of numbers unique to each user.
 This number is solely used for storing user settings and is not utilized for identifying, profiling, or monitoring users in any way.
 The developer is committed to ensuring the confidentiality and security of your information.
 Premium users also gain access to Porcupine Wake Word Detection from Picovoice to wake Omnis up in a voice channel by saying it's name.
