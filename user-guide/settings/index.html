@@ -510,9 +510,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#change-tts-voice" class="md-nav__link">
+  <a href="#change-text-to-speech-voice" class="md-nav__link">
     <span class="md-ellipsis">
-      Change TTS voice
+      Change Text-to-Speech voice
     </span>
   </a>
   
@@ -522,6 +522,24 @@
   <a href="#change-summon-greeting" class="md-nav__link">
     <span class="md-ellipsis">
       Change summon greeting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#change-onwake-phrase" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change onWake phrase
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#change-default-search-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change default search engine
     </span>
   </a>
   
@@ -579,13 +597,18 @@
 
 
 <h1 id="settings"><strong>Settings</strong></h1>
-<div class="admonition tip">
-<p>Any settings you change will be saved for you and will carry across servers.</p>
-</div>
-<h2 id="change-tts-voice"><strong>Change TTS voice</strong></h2>
 <div class="admonition info">
+<p class="admonition-title">Premium</p>
 <p><i> This requires a premium membership. </i></p>
 </div>
+<p>Using the /settings slash command, you can adjust various configuration options available in Omnis.
+These settings allow you to personalize your interaction with the bot, ensuring it aligns with your preferences.
+By tailoring these options, you can create a customized experience that best suits your needs.</p>
+<div class="admonition tip">
+<p class="admonition-title">User settings</p>
+<p>Any settings you change will be saved for you and will carry across servers.</p>
+</div>
+<h3 id="change-text-to-speech-voice"><strong>Change Text-to-Speech voice</strong></h3>
 <div class="admonition tip">
 <p class="admonition-title">Voice channel</p>
 <p>Omnis needs to be in a voice channel in order to change the voice.</p>
@@ -607,27 +630,59 @@
 <div class="admonition tip">
 <p>In addition to supporting all voice types, Omnis supports all of Google's available Text-to-Speech voices. That's over 700 voices to choose from!</p>
 </div>
-<div class="admonition tip">
-<p>Use the /settings command and select "Change TTS voice", then select a voice type, a language, and a voice.</p>
+<ol>
+<li>Use the /settings command:
+<br>
+<img alt="png" src="../../images/settings/settings-menu.png" /></li>
+<li>Select "Change TTS Voice"</li>
+<li>Select a voice type:
+<br>
+<img alt="png" src="../../images/settings/settings-tts-voice-type.png" /></li>
+<li>Select a language:
+<br>
+<img alt="png" src="../../images/settings/settings-tts-language.png" /></li>
+<li>Select a voice:
+<br>
+<img alt="png" src="../../images/settings/settings-tts-voice-name.png" /></li>
+</ol>
+<h3 id="change-summon-greeting"><strong>Change summon greeting</strong></h3>
+<div class="admonition question">
+<p class="admonition-title">What is this?</p>
+<p>Your summon greeting is what Omnis will say when you summon it to your voice channel using the /summon command.</p>
 </div>
-<p><img alt="png" src="../../images/settings/settings-menu.png" />
+<ol>
+<li>Use the /settings command:
 <br>
-<br>
-<img alt="png" src="../../images/settings/settings-tts-voice-type.png" />
-<br>
-<br>
-<img alt="png" src="../../images/settings/settings-tts-language.png" />
-<br>
-<br>
-<img alt="png" src="../../images/settings/settings-tts-voice-name.png" /></p>
-<h2 id="change-summon-greeting"><strong>Change summon greeting</strong></h2>
-<div class="admonition info">
-<p><i> This requires a premium membership. </i></p>
+<img alt="png" src="../../images/settings/settings-menu.png" /></li>
+<li>Select "Change summon greeting"</li>
+<li>Omnis will send you a direct message informing you that the next message you send in a direct message channel with Omnis will be used as your new summon greeting.</li>
+</ol>
+<h3 id="change-onwake-phrase"><strong>Change onWake phrase</strong></h3>
+<div class="admonition question">
+<p class="admonition-title">What is this?</p>
+<p>Your onWake phrase is what Omnis will say when you wake it up in your voice channel by saying it's name or using the /wakeup command.</p>
 </div>
-<div class="admonition tip">
-<p>Use the /settings command and select "Change summon greeting". The next message you send in a direct message will be used as your summon greeting.</p>
+<ol>
+<li>Use the /settings command:
+<br>
+<img alt="png" src="../../images/settings/settings-menu.png" /></li>
+<li>Select "Change onWake phrase"</li>
+<li>Omnis will send you a direct message informing you that the next message you send in a direct message channel with Omnis will be used as your new onWake phrase.</li>
+</ol>
+<h3 id="change-default-search-engine"><strong>Change default search engine</strong></h3>
+<div class="admonition question">
+<p class="admonition-title">What is this?</p>
+<p>This will determine what search engine to use by default for when you search for a track.</p>
 </div>
-<p><img alt="png" src="../../images/settings/settings-menu.png" /></p>
+<ol>
+<li>Use the /settings command:
+<br>
+<img alt="png" src="../../images/settings/settings-menu.png" /></li>
+<li>Select "Change default search engine"</li>
+<li>Select a search engine.
+<br>
+<img alt="png" src="../../images/settings/settings-search-engine.png" /></li>
+</ol>
 
 
 
