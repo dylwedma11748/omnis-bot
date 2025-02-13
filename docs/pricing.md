@@ -32,7 +32,7 @@ hide:
         <h2 class="pricing-header"><b>Premium Users</b></h2>
         <p class="pricing-description">Ready to see everything Omnis has to offer?</p>
         <div class="pricing-price">
-            <span class="pricing-price-bold">$3</span><span>/Month</span>
+            <span class="pricing-price-bold">$5</span><span>/Month</span>
         </div>
         <ul class="pricing-features">
 			<li>OpenAI chat prompts</li>
@@ -114,6 +114,16 @@ hide:
 	
 	<div class="feature-column">
         <p class="feature-description">Stream local media files</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+    <div class="feature-column">
+        <p class="feature-check">✔️</p>
+    </div>
+	
+	<div class="feature-column">
+        <p class="feature-description">Create polls</p>
     </div>
     <div class="feature-column">
         <p class="feature-check">✔️</p>
@@ -233,7 +243,7 @@ hide:
     </div>
 	
 	<div class="feature-column">
-        <p class="feature-description">GTA Radio Mode</p>
+        <p class="feature-description">GTA Radio Mode (Beta)</p>
     </div>
     <div class="feature-column">
         <p class="feature-check">❌</p>
