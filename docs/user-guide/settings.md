@@ -28,7 +28,7 @@ By tailoring these options, you can create a customized experience that best sui
 	- Casual - Designed for conversational, imperfect dialogue for comfort.
 	
 !!! tip ""
-    In addition to supporting all voice types, Omnis supports all of Google's available Text-to-Speech voices. That's over 700 voices to choose from!
+    In addition to supporting all voice types, Omnis supports all of <a href="https://cloud.google.com/text-to-speech/docs/voices">Google's available Text-to-Speech voices</a>. That's over 700 voices to choose from!
 	
 1. Use the /settings command:
 <br>
