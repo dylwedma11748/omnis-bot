@@ -24,7 +24,7 @@ By using Omnis, you represent and warrant that you meet these age requirements a
 If you’re a parent or legal guardian, and you allow your child (who must meet the minimum age for your country) to use Omnis, then these terms also apply to you and you’re responsible for your child’s activity with Omnis, including purchases made by them. 
 
 ## **Premium Features and OpenAI Credits**
-Omnis offers premium features accessible through a monthly Patreon subscription starting at $3.00.
+Omnis offers premium features accessible through a monthly Patreon subscription starting at $5.00.
 User's access to OpenAI credits each month is determined by their pledged amount.
 When you submit an image or prompt generation request, it's usage cost is deducted from your allowance only if the request is successful.
 If users exceed their credit allowance, prompt and image generation will be temporarily disabled until the next billing cycle or until the pledge amount is increased.
