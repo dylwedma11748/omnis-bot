@@ -198,7 +198,7 @@ function copyToClipboard(button) {
         <i>Show the lyrics for the currently playing track. Omnis may not be able to find lyrics for every single track.</i></p>
 		<p><b>Usage:</b>
 		<br>
-		<i></code>/lyrics</code></i>
+		<i><code>/lyrics</code></i>
 		<button class="copy-btn" onclick="copyToClipboard(this)">
 			<span>Copy to clipboard</span>
 			<img src="../images/copy.png" alt="Copy">
