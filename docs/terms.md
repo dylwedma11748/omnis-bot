@@ -11,9 +11,11 @@ By accessing or using Omnis, you acknowledge that you have read, understood, and
 If you are using Omnis on behalf of a company or other legal entity, you represent that you have the authority to bind such entity to these Terms, in which case the terms "you" or "your" shall refer to such entity.
 
 ## **Modification of Terms**
-The Developer reserves the right to modify, amend, or update these terms at any time without prior notice.
+The Developer reserves the right to modify, amend, or update these terms and/or the privacy policy at any time without prior notice.
 It is the responsibility of the users to regularly review the current terms and conditions before using Omnis.
 Continued use of Omnis after any such changes shall constitute your consent to such changes.
+
+**Last updated:** 4/12/2025
 
 ## **User Age Requirement**
 In compliance with <a href="https://discord.com/terms#2">Discord's terms of service</a>, you must be at least 13 years old to use Omnis.
@@ -58,6 +60,8 @@ This number is solely used for storing user settings and is not utilized for ide
 The developer is committed to ensuring the confidentiality and security of your information.
 Premium users also gain access to Porcupine Wake Word Detection from Picovoice to wake Omnis up in a voice channel by saying it's name.
 [Picovoice's privacy policy](https://picovoice.ai/docs/privacy-policy/#:~:text=No%20audio%20data%20generated%20using,unless%20otherwise%20requested%20or%20specified.) states that no audio data is tracked, stored, or reviewed by Picovoice or any other third party to improve Picovoice Services or Software unless otherwise requested or specified.
+
+For more detailed information on what data Omnis collects, refer to [Omnis's Privacy Policy]("http://www.omnis-bot.com/privacy-policy/")
 
 ## **Limitation of Liability and User Responsibility**
 Omnis is provided on an "as is" and "as available" basis without any warranties of any kind, either express or implied.

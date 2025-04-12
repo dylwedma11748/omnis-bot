@@ -57,6 +57,7 @@ nav:
         - Conversations with Omnis: user-guide/conversations-with-omnis.md
         - Settings: user-guide/settings.md
     - Terms: terms.md
+    - Privacy Policy: privacy-policy.md
 
 markdown_extensions:
   - abbr
