@@ -61,7 +61,7 @@ The developer is committed to ensuring the confidentiality and security of your 
 Premium users also gain access to Porcupine Wake Word Detection from Picovoice to wake Omnis up in a voice channel by saying it's name.
 [Picovoice's privacy policy](https://picovoice.ai/docs/privacy-policy/#:~:text=No%20audio%20data%20generated%20using,unless%20otherwise%20requested%20or%20specified.) states that no audio data is tracked, stored, or reviewed by Picovoice or any other third party to improve Picovoice Services or Software unless otherwise requested or specified.
 
-For more detailed information on what data Omnis collects, refer to [Omnis's Privacy Policy]("http://www.omnis-bot.com/privacy-policy/")
+For more detailed information on what data Omnis collects, refer to [Omnis's Privacy Policy](https://www.omnis-bot.com/privacy-policy/)
 
 ## **Limitation of Liability and User Responsibility**
 Omnis is provided on an "as is" and "as available" basis without any warranties of any kind, either express or implied.
